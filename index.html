@@ -5,16 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Alumflamar — Ventanas que dan vida a tus espacios</title>
 <meta name="description" content="Fabricación e instalación de ventanas PVC y Aluminio, puertas Protex, muro cortina y puertas automáticas. Cotiza tu proyecto sin costo.">
-<meta name="theme-color" content="#17324A">
-<link rel="icon" type="image/png" href="images/logo/window-left-flat.png">
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="Alumflamar — Ventanas que dan vida a tus espacios">
-<meta property="og:description" content="Fabricación e instalación de ventanas PVC y Aluminio, puertas Protex, muro cortina y puertas automáticas. Cotiza tu proyecto sin costo.">
-<meta property="og:image" content="https://alumflamar.vercel.app/images/real/img1-ventanas-instaladas.jpg">
-<meta property="og:url" content="https://alumflamar.vercel.app/">
-<meta name="twitter:card" content="summary_large_image">
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -24,16 +14,13 @@
 <header class="topbar">
   <div class="wrap topbar-inner">
     <div class="logo-mini">
-      <img src="images/logo/window-left-flat.png" class="logo-icon" width="452" height="357" alt="">
+      <img src="images/logo/window-left-flat.png" class="logo-icon" alt="">
       <div class="logo-text">
         <span class="wordmark">ALUM<span class="accent">FLAMAR</span></span>
         <span class="subtag">Ventanas que dan vida a tus espacios</span>
       </div>
     </div>
-    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
-      <svg viewBox="0 0 24 24" fill="none" stroke="#17324A" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
-    <nav class="nav" id="nav-menu">
+    <nav class="nav">
       <a href="#servicios">Servicios</a>
       <a href="#instalaciones">Instalaciones</a>
       <a href="#cotizar" class="nav-cta">Cotizar</a>
@@ -74,7 +61,7 @@
       <a href="#cotizar" class="btn btn-red">Cotiza tu proyecto</a>
     </div>
     <div class="hero-right">
-      <img src="images/real/img1-ventanas-instaladas.jpg" width="960" height="720" fetchpriority="high" alt="Ventanas instaladas por Alumflamar">
+      <img src="images/real/img1-ventanas-instaladas.jpg" alt="Ventanas instaladas por Alumflamar">
     </div>
   </div>
 </section>
@@ -162,59 +149,31 @@
     <p class="gallery-sub">Algunos de nuestros trabajos y nuestra fábrica en Puerto Montt.</p>
 
     <div class="gallery-grid">
-      <div class="gallery-item"><img src="images/real/img1-ventanas-instaladas.jpg" width="960" height="720" loading="lazy" alt="Ventanas instaladas"></div>
-      <div class="gallery-item"><img src="images/real/img6-showroom-interior.jpg" width="539" height="960" loading="lazy" alt="Terminaciones en showroom"></div>
-      <div class="gallery-item"><img src="images/real/img2-instalacion-obra.jpg" width="960" height="720" loading="lazy" alt="Instalación en obra"></div>
-      <div class="gallery-item"><img src="images/real/img8-fabrica.jpg" width="960" height="539" loading="lazy" alt="Nuestra fábrica"></div>
-      <div class="gallery-item"><img src="images/real/img7-taller.jpg" width="539" height="960" loading="lazy" alt="Trabajo en taller"></div>
-      <div class="gallery-item"><img src="images/real/img4-showroom.jpg" width="2013" height="2015" loading="lazy" alt="Sala de ventas"></div>
+      <div class="gallery-item"><img src="images/real/img1-ventanas-instaladas.jpg" alt="Ventanas instaladas"></div>
+      <div class="gallery-item"><img src="images/real/img6-showroom-interior.jpg" alt="Terminaciones en showroom"></div>
+      <div class="gallery-item"><img src="images/real/img2-instalacion-obra.jpg" alt="Instalación en obra"></div>
+      <div class="gallery-item"><img src="images/real/img8-fabrica.jpg" alt="Nuestra fábrica"></div>
+      <div class="gallery-item"><img src="images/real/img7-taller.jpg" alt="Trabajo en taller"></div>
+      <div class="gallery-item"><img src="images/real/img4-showroom.jpg" alt="Sala de ventas"></div>
     </div>
   </div>
 </section>
 
 <section id="cotizar" class="quote">
-  <div class="wrap quote-inner">
-    <div class="quote-info">
-      <div class="section-title-row"><span class="title-accent"></span><h2 class="section-title">Cuéntanos tu proyecto</h2></div>
-      <p class="quote-text">Completa el formulario y te contactamos por WhatsApp para coordinar una visita o enviarte tu cotización.</p>
-      <div class="quote-contact">
-        <p class="qc-label">Contacto directo</p>
-        <p class="qc-name">Jaime</p>
-        <a class="qc-phone" href="https://wa.me/56936493037" target="_blank">+56 9 3649 3037</a>
-        <p class="qc-zone">📍 Puerto Montt y alrededores</p>
-      </div>
-    </div>
+  <div class="wrap quote-inner-simple">
+    <div class="section-title-row center"><span class="title-accent"></span><h2 class="section-title">Cotiza tu proyecto</h2></div>
+    <p class="quote-text center">Cuéntanos qué necesitas por WhatsApp y te ayudamos a cotizarlo — sin formularios ni vueltas.</p>
 
-    <form class="quote-form" id="quote-form">
-      <label>
-        Nombre
-        <input type="text" name="nombre" required autocomplete="name" placeholder="Tu nombre">
-      </label>
-      <label>
-        Teléfono
-        <input type="tel" name="telefono" required autocomplete="tel" pattern="^[+]?[0-9 ]{8,15}$" placeholder="+56 9 1234 5678">
-      </label>
-      <label>
-        Tipo de trabajo
-        <select name="trabajo" required>
-          <option value="" disabled selected>Selecciona una opción</option>
-          <option value="Reposición de ventanas PVC/Aluminio">Reposición de ventanas PVC/Aluminio</option>
-          <option value="Puertas Protex">Puertas Protex</option>
-          <option value="Muro cortina">Muro cortina</option>
-          <option value="Puertas automáticas">Puertas automáticas</option>
-          <option value="Otro">Otro</option>
-        </select>
-      </label>
-      <label>
-        Comuna / Ciudad
-        <input type="text" name="ciudad" autocomplete="address-level2" placeholder="Ej: Puerto Montt">
-      </label>
-      <label>
-        Cuéntanos más detalles
-        <textarea name="detalle" rows="4" placeholder="Medidas, cantidad, plazos, etc. (opcional)"></textarea>
-      </label>
-      <button type="submit" class="btn btn-red btn-full">Enviar cotización por WhatsApp</button>
-    </form>
+    <a class="wa-button" href="https://wa.me/56936493037?text=Hola%2C%20quiero%20cotizar%20un%20proyecto%20con%20Alumflamar" target="_blank">
+      <svg viewBox="0 0 24 24" fill="#fff"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.81L2 22l5.42-1.35a9.9 9.9 0 0 0 4.62 1.15h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.13-2.9-6.99A9.82 9.82 0 0 0 12.04 2m0 1.8a8.1 8.1 0 0 1 5.75 2.38 8.06 8.06 0 0 1 2.38 5.73c0 4.48-3.65 8.12-8.14 8.12a8.12 8.12 0 0 1-4.14-1.13l-.3-.17-3.02.79.81-2.94-.19-.31a8.06 8.06 0 0 1-1.25-4.34c0-4.48 3.65-8.13 8.1-8.13"/></svg>
+      Escribir por WhatsApp
+    </a>
+
+    <div class="quote-contact center">
+      <p class="qc-name">Jaime</p>
+      <p class="qc-phone-static">+56 9 3649 3037</p>
+      <p class="qc-zone">📍 Puerto Montt y alrededores</p>
+    </div>
   </div>
 </section>
 
@@ -227,6 +186,5 @@
   </div>
 </footer>
 
-<script src="js/main.js"></script>
 </body>
 </html>
