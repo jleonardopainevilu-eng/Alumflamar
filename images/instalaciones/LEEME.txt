@@ -1,0 +1,17 @@
+Cómo agregar fotos de instalaciones:
+
+1. Guarda las fotos en esta carpeta (images/instalaciones/).
+   Nómbralas simple, sin espacios ni tildes, ej: ventana-01.jpg, protex-casa-temuco.jpg
+
+2. En el archivo index.html, busca la sección "Instalaciones" (id="instalaciones").
+   Ahí verás 6 bloques como este:
+
+   <div class="gallery-item placeholder"><span>Foto próximamente</span></div>
+
+3. Reemplaza cada uno por:
+
+   <div class="gallery-item">
+     <img src="images/instalaciones/NOMBRE-DEL-ARCHIVO.jpg" alt="Descripción breve del trabajo">
+   </div>
+
+4. Puedes agregar más bloques copiando y pegando el mismo formato si tienes más de 6 fotos.
